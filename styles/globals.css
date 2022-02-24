@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.format-toolbar {
+  display: flex;
+  border-bottom: solid 1.7px rgba(199, 198, 255, 0.15);
+  padding: 10px 0;
+  margin: 0 0 10px 0;
+}
+
+.tooltip-icon-button {
+  cursor: pointer;
+  border: 0;
+}
+.toolbar {
+  display: flex;
+  background: #fafbfc;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  height: 50px;
+  align-items: center;
+  padding: 20px;
+}
+.boldIcon {
+  cursor: pointer;
+  margin: 7px;
+  background: url(/bold.png);
+  width: 10.69px;
+  height: 14px;
+}
+.italicIcon {
+  cursor: pointer;
+  margin: 7px;
+  background: url(/italic.png);
+  width: 4.87px;
+  height: 14px;
+}
+.underlineIcon {
+  cursor: pointer;
+  margin: 7px;
+  background: url(/underline.png);
+  width: 13.98px;
+  height: 17px;
+}
+.centerIcon {
+  cursor: pointer;
+  margin: 7px;
+  background: url(/centerindent.png);
+  width: 17.98px;
+  height: 12px;
+}
+
+.listIcon {
+  cursor: pointer;
+  margin: 7px;
+  background: url(/listitems.png);
+  width: 18.98px;
+  height: 14px;
+}
+
+.blogs {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: #f4f5f7;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+}
+.profile-name {
+  margin-right: 6px;
+  font-weight: 500;
+  color: #091e42;
+  opacity: 0.8;
+  font-size: 16px;
+}
+
+.profile-blog {
+  padding-left: 55px;
+  font-size: 16px;
+  color: #091e42;
+  opacity: 0.6;
+  font-weight: 400;
+  margin-top: -8px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 8px;
+}
+.editor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.interviewee-name {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #091e42;
+
+  opacity: 0.7;
+  text-shadow: 0px 10px 40px rgba(1, 0, 39, 0.25);
+  margin: 2px 0 15px 0;
+}
